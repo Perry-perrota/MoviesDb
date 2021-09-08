@@ -1,0 +1,2 @@
+rootProject.name = "MoviesDb"
+include ':app'
