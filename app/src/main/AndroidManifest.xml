@@ -11,8 +11,16 @@
         android:theme="@style/Theme.MoviesDb">
         <activity
             android:name=".Homepage"
-            android:exported="true" />
-        <activity android:name=".MainActivity">
+            android:exported="true" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBarTheme"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

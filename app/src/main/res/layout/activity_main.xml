@@ -18,8 +18,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
+        android:fontFamily="monospace"
+        android:text="Movies"
         android:textColor="@color/black"
-        android:text="Movies"/>
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/splashPageEditText"

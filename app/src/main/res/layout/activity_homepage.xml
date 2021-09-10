@@ -12,5 +12,13 @@
         android:textSize="20sp"
         android:textColor="@color/teal_200"
         />
+    <ListView
+        android:id="@+id/homepageListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homepageTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
 
 </RelativeLayout>
